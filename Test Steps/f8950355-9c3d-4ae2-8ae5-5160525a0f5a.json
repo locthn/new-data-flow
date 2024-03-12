@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://genk.vn/",
+        "step 2: Click on link 'Samsung ra m\\u1eaft Galaxy S24 Ultra b\\u1ea3n \\u0111\\u1eb7c bi\\u1ec7t: H\\u1ed9p ph\\u1ee5 ki\\u1ec7n c\\u1ef1c ch\\u1ea5t, gi\\u1edbi h\\u1ea1n 2.000 chi\\u1ebfc' -> Navigate to page '*'",
+        "step 3: Click on link 'INTERNET' -> Navigate to page 'internet.chn'",
+        "step 4: Click on link '\\u0110\\u1ed2 CH\\u01a0I S\\u1ed0' -> Navigate to page 'do-choi-so.chn'",
+        "step 5: Click on link",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}
