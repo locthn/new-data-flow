@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Navigation and Display on Home Page,Navigate to the home page and click on various hyperlinks and objects. Verify the displayed page.,"step 1: Navigate to https://genk.vn/
+1,Verify Navigation and Access to Gia Dung Page,Navigate to the home page and access the GiaDung page. Perform a series of clicks on different elements to reach the desired page and verify the successful navigation to the GiaDung page.,"step 1: Navigate to https://genk.vn/
 step 2: Click on link 'G\u1ea7n 3 th\u1eadp k\u1ef7 l\xe0m vi\u1ec7c t\u1ea1i Microsoft, c\u1ef1u gi\xe1m \u0111\u1ed1c gi\u1ea3i th\xedch l\xfd t\u1ea1i sao Windows 11 l\u1ea1i ng\u1eebng h\u1ed7 tr\u1ee3 Android' -> Navigate to page '*'
 step 3: Click on link 'TH\u1ee6 THU\u1eacT' -> Navigate to page 'thu-thuat.chn'
 step 4: Click on link 'Th\u1ee7 thu\u1eadt ti\u1ebft ki\u1ec7m dung l\u01b0\u1ee3ng cho ng\u01b0\u1eddi d\xf9ng iPhone th\u01b0\u1eddng xuy\xean quay video' -> Navigate to page '*'
@@ -11,12 +11,12 @@ step 9: Click on link 'GIA D\u1ee4NG' -> Navigate to page 'gia-dung.chn'
 step 10: Click on link 'btnSearch' -> Navigate to page 'tim-kiem.chn'
 step 11: Click on link 'Startup Vi\u1ec7t Coin98 s\xe1p nh\u1eadp studio chuy\xean v\u1ec1 game Yunero, h\u01b0\u1edbng t\u1edbi \u0111\u1ea9y m\u1ea1nh web3 v\xe0 GameFi' -> Navigate to page '*'
 step 12: Take full page screenshot as checkpoint",High
-2,Verify Comparison of Samsung Galaxy Models on Home Page,Navigate to the home page and compare the features of Samsung Galaxy S24 Ultra with Galaxy Z Fold6. Verify the displayed page.,"step 1: Navigate to https://genk.vn/
+2,Verify Access to Samsung Galaxy S24 Ultra Comparison Page,Navigate to the home page and access the comparison page for Samsung Galaxy S24 Ultra. Perform clicks on specific hyperlinks to reach the desired page and verify the successful access to the comparison page.,"step 1: Navigate to https://genk.vn/
 step 2: Click on link 'Samsung ra m\u1eaft Galaxy S24 Ultra b\u1ea3n \u0111\u1eb7c bi\u1ec7t: H\u1ed9p ph\u1ee5 ki\u1ec7n c\u1ef1c ch\u1ea5t, gi\u1edbi h\u1ea1n 2.000 chi\u1ebfc' -> Navigate to page '*'
 step 3: Click on link 'So s\xe1nh Galaxy Z Fold 6 v\xe0 Galaxy Z Fold 5: Thi\u1ebft k\u1ebf thay \u0111\u1ed5i ra sao?'
 step 4: Click on link 'B\u1ecb YouTuber MKBHD ch\xea bai l\xe0 ""chi\u1ebfc xe t\u1ec7 nh\u1ea5t t\u1eebng \u0111\xe1nh gi\xe1"", c\u1ed5 phi\u1ebfu m\u1ed9t h\xe3ng xe \u0111i\u1ec7n bay h\u01a1i 50%'
 step 5: Take full page screenshot as checkpoint",High
-3,Verify Internet and Toy Section on Home Page,Navigate to the home page and access the internet and toy sections. Verify the displayed toy section page.,"step 1: Navigate to https://genk.vn/
+3,Verify Access to Internet Page and Do Choi So Page,Navigate to the home page and access the Internet page. Proceed to the DoChoiSo page by clicking on specific hyperlinks and verify the successful access to the DoChoiSo page.,"step 1: Navigate to https://genk.vn/
 step 2: Click on link 'G\u1ea7n 3 th\u1eadp k\u1ef7 l\xe0m vi\u1ec7c t\u1ea1i Microsoft, c\u1ef1u gi\xe1m \u0111\u1ed1c gi\u1ea3i th\xedch l\xfd t\u1ea1i sao Windows 11 l\u1ea1i ng\u1eebng h\u1ed7 tr\u1ee3 Android' -> Navigate to page '*'
 step 3: Click on link 'INTERNET' -> Navigate to page 'internet.chn'
 step 4: Click on link '\u0110\u1ed2 CH\u01a0I S\u1ed0' -> Navigate to page 'do-choi-so.chn'

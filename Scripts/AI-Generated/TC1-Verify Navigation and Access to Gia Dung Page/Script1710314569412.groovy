@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -39,11 +39,11 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_th_thu_t'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_thu-thuat_chn/hyperlink_th_thu_t_ti_t_ki_m_dung_l_ng_cho_ng_i'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_thu_thuat_chn/hyperlink_th_thu_t_ti_t_ki_m_dung_l_ng_cho_ng_i'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/thu-thuat.chn?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_thu-thuat_chn/hyperlink_th_thu_t_ti_t_ki_m_dung_l_ng_cho_ng_i'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_thu_thuat_chn/hyperlink_th_thu_t_ti_t_ki_m_dung_l_ng_cho_ng_i'))
 
 "Step 5: Click on link 'Ra m\u1eaft MacBook Air 2024 v\u1edbi chip M3, Apple cho th\u1ea5y \u0111ang "t\u1ea5t tay" v\u1edbi cu\u1ed9c ch\u01a1i AI nh\u01b0 th\u1ebf n\xe0o'"
 
@@ -99,25 +99,25 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_gia_d_ng'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_gia-dung_chn/hyperlink_btnsearch'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_gia_dung_chn/hyperlink_btnsearch'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/gia-dung.chn?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_gia-dung_chn/hyperlink_btnsearch'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_gia_dung_chn/hyperlink_btnsearch'))
 
 "Step 11: Click on link 'Startup Vi\u1ec7t Coin98 s\xe1p nh\u1eadp studio chuy\xean v\u1ec1 game Yunero, h\u01b0\u1edbng t\u1edbi \u0111\u1ea9y m\u1ea1nh web3 v\xe0 GameFi' -> Navigate to page '*'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_tim-kiem_chn/hyperlink_startup_vi_t_coin98_s_p_nh_p_studio_chuy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_tim_kiem_chn/hyperlink_startup_vi_t_coin98_s_p_nh_p_studio_chuy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/tim-kiem.chn?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_tim-kiem_chn/hyperlink_startup_vi_t_coin98_s_p_nh_p_studio_chuy'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_tim_kiem_chn/hyperlink_startup_vi_t_coin98_s_p_nh_p_studio_chuy'))
 
 "Step 12: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation and Display on Home Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation and Access to Gia Dung Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
